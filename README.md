@@ -1,2 +1,2 @@
 # MembProtFinder
-A tool to identify membrane proteins from a given list of gene or protein IDs.
+A tool to identify transmembrane proteins from a given list of gene or protein IDs.
