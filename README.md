@@ -37,12 +37,16 @@ Input File
 | ENSG00000184895 |
 | ENSG00000184895 |
 
+Command
+
+``$ MembProtFinder --infile input.txt --infile-index-column 0 --givenIDs ensembl --outfile output.txt --TMcount --TMcoordinates --filter``
+
+
 Output File
 | Genes | Gene Name | Transmembrane Protein? | Transmembrane_Helices_Count | Transmembrane_Helices_Positions |
 |---|---|---|---|---|
 | ENST00000275493	| EGFR	| True	| 1	| TM1: TRANSMEM 646..668 |
 | ENST00000342462	| TMPPE	| True	| 5	| TM1: TRANSMEM 7..27 <br> TM2: TRANSMEM 43..63 <br> TM3: TRANSMEM 87..107 <br> TM4: TRANSMEM 114..134 <br> TM5: TRANSMEM 162..182 |
-
 
 
 
