@@ -4,7 +4,7 @@ A tool to identify transmembrane proteins from a given list of gene or protein I
 <br></br>
 **Usage**
 
-``$ MembProtFinder.py [-h] --infile INFILE --infile-index-column INFILE_INDEX_COLUMN --givenIDs GIVENIDS --outfile OUTFILE [--TMcount] [--TMcoordinates] [--filter]``
+``$ MembProtFinder [-h] --infile INFILE --infile-index-column INFILE_INDEX_COLUMN --givenIDs GIVENIDS --outfile OUTFILE [--TMcount] [--TMcoordinates] [--filter]``
 
  Options
 - `-h`, `--help`: Show this help message and exit
