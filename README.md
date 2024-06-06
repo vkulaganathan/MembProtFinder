@@ -1,7 +1,7 @@
 # MembProtFinder
 A tool to identify transmembrane proteins from a given list of gene or protein IDs.
 
-<br></br>
+
 **Usage**
 
 ``$ MembProtFinder [-h] --infile INFILE --infile-index-column INFILE_INDEX_COLUMN --givenIDs GIVENIDS --outfile OUTFILE [--TMcount] [--TMcoordinates] [--filter]``
@@ -43,7 +43,9 @@ Output File
 | ENST00000275493	| EGFR	| True	| 1	| TM1: TRANSMEM 646..668 |
 | ENST00000342462	| TMPPE	| True	| 5	| TM1: TRANSMEM 7..27 <br> TM2: TRANSMEM 43..63 <br> TM3: TRANSMEM 87..107 <br> TM4: TRANSMEM 114..134 <br> TM5: TRANSMEM 162..182 |
 
-<br></br>
+
+
+
 **Installation**
 
 ``$ pip install MembProtFinder``
